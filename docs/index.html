@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zufälliger Satz</title>
+	<style>
+		.center {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			font-size: 24px;
+			font-weight: bold;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="center">
+		<script>
+			var saetze = [
+				"Wie sieht für dich der perfekte Urlaub aus?",
+				"Hast du in letzter Zeit Serien oder Filme geschaut, die du empfehlen würdest? Worum gings da?",
+				"Gibt es eine Erfahrung, die dein Leben nachhaltig verändert hat?",
+				"Wenn du eine beliebige Aktivität zu einer olympischen Disziplin machen könntest: Bei welcher hättest du die größten Chancen eine Medaille zu gewinnen?",
+				"Über welches Thema könntest du eine 10-minütige Präsentation halten, ohne jede Vorbereitung?",
+				"Welche*n Musiker*in, ob lebend oder tot, würdest du gerne mal live performen sehen?",
+				"Mit welcher berühmten Person aus der Vergangenheit oder Gegenwart würdest du gerne mal zu Abend essen? Warum?",
+				"Was ist der schönste Ort, an dem du je warst?",
+				"Für welches Ereignis deines Lebens bist du zutiefst dankbar?",
+				"Wenn dein Haus in Flammen stehen würde und du nur einen Gegenstand retten könntest, welcher wäre das?",
+				"In welcher Fantasiewelt würdest du am liebsten einen Tag verbringen?",
+				"Welche weitere Sprache würdest du gerne sprechen und warum gerade diese?",
+				"Was ist dir lieber? Ein edles Essen in einem 5 Sterne Hotel oder ein Döner beim Imbiss?",
+				"In welches Smartphone- oder Computerspiel hast du am meisten Zeit investiert?",
+				"Was glaubst du, haben wir gemeinsam?",
+				"Was ist eine Sache, von der alle Leute begeistert scheinen und du kannst einfach nicht nachvollziehen wieso?",
+				"Was gefällt dir am meisten im Bildungszentrum?",
+				"Welchen Beruf würdest du ausüben, wenn Geld keine Rolle spielen würde?",
+				"Wenn alle Tiere reden könnten, welches Tier, denkst du, wäre am nervigsten?",
+				"In welcher Situation in deinem Leben hast du so richtig Glück gehabt?", 
+				"Hast du jemals ein Essen probiert, welches du nie wieder essen würdest? Welches und warum?"
+			];
+			var zufallsSatz = saetze[Math.floor(Math.random() * saetze.length)];
+			document.write(zufallsSatz);
+		</script>
+	</div>
+</body>
+</html>
